@@ -1,0 +1,38 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files\r - [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint --fix src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevintran73/discord-music-guessing-game.git"
+  },
+  "author": "Kevin Tran <kevin.tran73@outlook.com>, Alan Nguyen <aland.nguyen24@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevintran73/discord-music-guessing-game/issues"
+  },
+  "homepage": "https://github.com/kevintran73/discord-music-guessing-game#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.8.0",
+    "@discordjs/rest": "^1.5.0",
+    "@discordjs/voice": "github:discordjs/voice",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.37.24",
+    "discord-player": "^5.3.2",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "ffmpeg-static": "^5.1.0",
+    "libsodium-wrappers": "^0.7.10",
+    "mongoose": "^6.8.3",
+    "sodium-native": "^3.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}
